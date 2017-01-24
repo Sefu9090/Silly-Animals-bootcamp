@@ -1,0 +1,112 @@
+
+body {
+    color: #212121;
+    font-family: Helvetica;
+    margin: 0;
+    padding: 0;
+    border : 0;
+    background: rgba(51,156,255,1);
+    background: -moz-linear-gradient(left, rgba(51,156,255,1) 0%, rgba(42,149,255,0) 20%, rgba(14,129,255,0) 80%, rgba(5,122,255,1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(51,156,255,1)), color-stop(20%, rgba(42,149,255,0)), color-stop(80%, rgba(14,129,255,0)), color-stop(100%, rgba(5,122,255,1)));
+    background: -webkit-linear-gradient(left, rgba(51,156,255,1) 0%, rgba(42,149,255,0) 20%, rgba(14,129,255,0) 80%, rgba(5,122,255,1) 100%);
+    background: -o-linear-gradient(left, rgba(51,156,255,1) 0%, rgba(42,149,255,0) 20%, rgba(14,129,255,0) 80%, rgba(5,122,255,1) 100%);
+    background: -ms-linear-gradient(left, rgba(51,156,255,1) 0%, rgba(42,149,255,0) 20%, rgba(14,129,255,0) 80%, rgba(5,122,255,1) 100%);
+    background: linear-gradient(to right, rgba(51,156,255,1) 0%, rgba(42,149,255,0) 20%, rgba(14,129,255,0) 80%, rgba(5,122,255,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#339cff', endColorstr='#057aff', GradientType=1 );
+}
+.header{
+    background-color: #1976D2;
+    margin: 0;
+    border-bottom: solid 5px #2196F3;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    top:0;
+}
+.flip{
+        -moz-transform: scaleX(-1);
+        -o-transform: scaleX(-1);
+        -webkit-transform: scaleX(-1);
+        transform: scaleX(-1);
+        filter: FlipH;
+        -ms-filter: "FlipH";
+}
+.header h1 {
+    color: #FFFFFF;
+    font-size: 75px; 
+    padding: 10px ;
+    display: inline;
+}
+.header img{
+    height: 90px;
+    display: inline;
+    margin-top: -40px;
+}
+.nav{
+    position: fixed;
+    z-index: 100;
+    left: -35;
+    
+}
+.nav ul{
+    list-style-type: none;
+    margin: 0; 
+    padding: 0;
+    background-color: white;
+    
+}
+.nav ul a{
+    text-decoration: none;
+    color: black; 
+    
+    
+}
+.nav ul a li{
+    padding: 5px;
+    font-size: 34.5px;
+    border-bottom: solid 1px blue;
+}
+.nav ul a li:hover{
+    color: white;
+    background-color: #2196F3;
+}
+
+.container{
+    background-color: #eeeeee;
+    width: 80%;
+    padding: 20px;
+    margin-top: 94px
+}
+
+.content p {
+    font-size: 200%;
+    margin: auto;
+    width: 95%;
+}
+.content li{
+    font-size: 150%;
+}
+
+.container img {
+    width: 100%;
+    
+}
+.pichold {
+    display: inline-block ;
+    width: 30%;
+    padding: 0;
+    border : 0;
+    float: left;
+    border: solid .03px #BDBDBD;
+    background-color: #FFF;
+    margin: 1.66%;
+} 
+.info{
+    
+}
+.pichold p{
+    font-size: 20px;
+    padding :  7px 0 0 7px;
+    margin :0;
+    
+}
